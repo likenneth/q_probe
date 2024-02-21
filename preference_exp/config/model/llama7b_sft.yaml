@@ -1,0 +1,6 @@
+defaults:
+  - base_model
+
+name_or_path: ContextualAI/archangel_sft_llama7b
+block_name: LlamaDecoderLayer
+use_flash_attention: true

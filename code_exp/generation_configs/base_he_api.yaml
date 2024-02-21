@@ -1,0 +1,14 @@
+dataset: HumanEval
+num_shots: 0
+policy: base
+
+outer_loop_batches: 1
+save_dir: /home/kl/results/base_he
+
+llm:
+  model_name: gpt-3.5-turbo-1106
+  num_gens: 100
+  batch_size: 100
+  temperature: 2.0
+  top_p: 0.95
+  return_hiddens: True

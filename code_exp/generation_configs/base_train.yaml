@@ -1,0 +1,16 @@
+dataset: MBPP_train
+num_shots: 0
+policy: base
+
+outer_loop_batches: 20
+save_dir: /n/holyscratch01/kempner_dev/Shared/mcts-llm
+
+llm:
+  model_name: codellama/CodeLlama-7b-hf
+  num_gens: 10
+  batch_size: 10
+  temperature: 0.8
+  top_p: 0.95
+  device: cuda
+  return_hiddens: True
+  layer: 26

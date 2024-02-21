@@ -1,0 +1,14 @@
+dataset: MBPP_train
+num_shots: 0
+policy: base
+
+outer_loop_batches: 1
+save_dir: /home/kl/results/base_train_greedy
+
+llm:
+  model_name: gpt-3.5-turbo-1106
+  num_gens: 1
+  batch_size: 1
+  temperature: 0.0
+  top_p: 0.95
+  return_hiddens: True
