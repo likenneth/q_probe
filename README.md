@@ -1,6 +1,6 @@
 # Q-probe
 
-A repo for building and evaluating q-probes, which is proposed in as discussed in [Q-Probe: A Lightweight Approach to Reward Maximization for Language Models](https://www.google.com/). 
+A repo for building and evaluating q-probes, which is proposed in as discussed in [Q-Probe: A Lightweight Approach to Reward Maximization for Language Models](https://arxiv.org/html/2402.14688v1). 
 
 The repo is split into two halves, each with it's own environment and README.
 
@@ -14,4 +14,11 @@ The repo is split into two halves, each with it's own environment and README.
 
 ## How to Cite
 
-coming soon
+```
+@article{li2024q,
+  title={Q-Probe: A Lightweight Approach to Reward Maximization for Language Models},
+  author={Li, Kenneth and Jelassi, Samy and Zhang, Hugh and Kakade, Sham and Wattenberg, Martin and Brandfonbrener, David},
+  journal={arXiv preprint arXiv:2402.14688},
+  year={2024}
+}
+```
