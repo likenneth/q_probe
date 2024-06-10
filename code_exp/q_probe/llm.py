@@ -179,7 +179,7 @@ class LLM(LLM_base):
                 hiddens = []
                 for i, l in enumerate(useful_lengths):  # index by action
                     hiddens.append(
-                        model_output.hidden_states[l - 1][self.config.layer][i, 0, :]
+                        model_output.hidden_states[l][self.config.layer][i, -1, :]
                         .detach()
                         .cpu()
                         .numpy()
